@@ -1,0 +1,21 @@
+.footer-section {
+    width: 100%;
+    height: auto;
+    background-color: darkblue;
+}
+
+.footer-container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 30px 0px;
+    background-color: darkblue;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.footer-copyright {
+    color: white;
+}

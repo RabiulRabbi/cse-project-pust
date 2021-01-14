@@ -1,0 +1,28 @@
+.login-form {
+    width: 320px;
+    height: auto;
+    margin: 80px auto 0 auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+}
+
+.login-container {
+    padding: 40px 10px;
+}
+
+.button {
+    color: darkblue;
+}
+
+.back {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.back a {
+    padding: 5px;
+    color: darkblue;
+    background-color: gray;
+    text-align: center;
+}

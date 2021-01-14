@@ -1,0 +1,27 @@
+.marquee-section {
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.marquee-container {
+    width: 70%;
+    margin: auto;
+    background-color: lightgreen;
+    border-left: 5px solid darkblue;
+    border-right: 5px solid darkblue;
+}
+
+marquee {
+    font-weight: 500;
+}
+
+marquee a {
+    color: black;
+    margin: 5px;
+}
+
+marquee a:hover {
+    outline: 0;
+    text-decoration: none;
+    color: darkred;
+}

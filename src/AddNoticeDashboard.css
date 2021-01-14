@@ -1,0 +1,46 @@
+.admin__left {
+    background-color: darkblue;
+    width: 20%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 180px;
+}
+
+.admin__right {
+    margin-left: 20%;
+}
+
+.admin__left ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.admin__left ul li {
+    padding: 10px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.admin__left ul li:not(:first-child) {
+    border-top: 1px solid black;
+}
+
+.admin__left ul li:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10% {
+        transform: translate3d(-2px, 0, 0);
+    }
+    100%,
+    100% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
